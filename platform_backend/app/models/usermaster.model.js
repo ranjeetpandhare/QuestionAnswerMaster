@@ -10,7 +10,7 @@ var User = function (usermaster) {
 User.getAllUser = (result) => {
     dbConn.query(`SELECT * FROM usermaster`, (err, res) => {
         if (err) {
-            console.log("error while fetching data of user");
+            console.log("error while");
             result(null, err);
         }
         else {

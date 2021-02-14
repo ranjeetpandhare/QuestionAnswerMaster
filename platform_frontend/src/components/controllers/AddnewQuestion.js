@@ -28,7 +28,7 @@ const AddnewQuestion = (props) => {
     }
 
     return (
-        <div className="container" >
+        <div className="container" style={{ height: "800px" }}>
             <span style={mystyle}><b> Current User: </b>{currentUser}</span>
             <div className="w-50 mx-auto shadow p-1 mb-5" style={{ color: "black" }}>
                 <h2 className="text-center mb-4" style={{ color: "#06a1bf" }}>Add New Question</h2>

@@ -44,7 +44,7 @@ const AnswerDetails = (props) => {
         setAnswer(res.data);
     };
     return (
-        <div class="container py-0" >
+        <div class="container py-0" style={{ height: "800px" }}>
             <span style={styleCurrentUser}><b> Current User: </b>{currentUser}</span>
             <hr />
             <div style={{ backgroundColor: "lightblue" }}>

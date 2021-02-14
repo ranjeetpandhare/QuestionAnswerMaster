@@ -44,7 +44,8 @@ function App(props) {
             <Route exact path="/Signup" component={Signup} />
             <Route component={NotFound} />
           </Switch>
-          <Footer/>
+          <hr />
+          <Footer />
         </div>
       </Router>
     </ThemeProvider>

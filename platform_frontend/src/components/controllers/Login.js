@@ -30,9 +30,9 @@ const Login = () => {
     };
 
     return (
-        <div className="container">
+        <div className="container" style={{ height: "800px" }}>
             <div className="py-4"  >
-                <Form className="w-50 mx-auto shadow p-5" >
+                <Form className="w-50  mx-auto shadow p-5" >
                     <h1><Icon.PersonCircle height={50} width={50} /> Login </h1>
 
                     {/* username field  */}

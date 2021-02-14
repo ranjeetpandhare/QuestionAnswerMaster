@@ -9,7 +9,6 @@ var Signupmaster = function (signupmaster) {
     this.phone = signupmaster.phone;
     this.address = signupmaster.address;
     this.password = signupmaster.password;
-    this.userId = signupmaster.userId;
 }
 
 Signupmaster.getSignList = (result) => {

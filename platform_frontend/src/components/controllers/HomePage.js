@@ -38,7 +38,7 @@ const HomePage = () => {
                     <table class="table border shadow" style={tableWidth}>
                         <thead class="thead-gray" >
                             {/* Home page coloumn name */}
-                            <tr>
+                            <tr style={{ textAlign: "left" }}>
                                 <th scope="col"><h2><b>#</b></h2></th>
                                 <th scope="col"><h2><b>Question</b></h2></th>
                                 <th scope="col"><h2><b>Username</b></h2></th>
